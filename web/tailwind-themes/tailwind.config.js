@@ -77,8 +77,9 @@ module.exports = {
         "very-short": { raw: "(max-height: 600px)" },
       },
       fontFamily: {
-        sans: ["Hanken Grotesk", "sans-serif"],
-        hanken: ["Hanken Grotesk", "sans-serif"],
+        sans: ["DM Mono", "Courier New", "monospace"],
+        hanken: ["DM Mono", "Courier New", "monospace"],
+        mono: ["DM Mono", "Courier New", "monospace"],
       },
       width: {
         "message-xs": "450px",

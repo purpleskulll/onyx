@@ -50,8 +50,8 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Onyx",
-  description: "Question answering for your documents",
+  title: "Arcamatrix",
+  description: "One AI that does everything",
 };
 
 // force-dynamic prevents Next.js from statically prerendering pages at build
@@ -94,7 +94,7 @@ export default function RootLayout({
         )}
       </head>
 
-      <body className={`relative font-hanken`}>
+      <body className={`relative font-mono`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
