@@ -97,8 +97,8 @@ export default function RootLayout({
       <body className={`relative font-mono`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="dark"
+          forcedTheme="dark"
           disableTransitionOnChange
         >
           <div className="text-text min-h-screen bg-background">
