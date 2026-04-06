@@ -14,7 +14,7 @@ export default function Error() {
       </div>
 
       <Text as="p" text03>
-        It seems there was a problem loading your Onyx settings. This could be
+        It seems there was a problem loading your Arcamatrix settings. This could be
         due to a configuration issue or incomplete setup.
       </Text>
 
@@ -33,14 +33,14 @@ export default function Error() {
       </Text>
 
       <Text as="p" text03>
-        Need help? Join our{" "}
+        Need help? Contact us at{" "}
         <a
           className="text-action-link-05"
-          href="https://discord.gg/4NA5SbzrWb"
+          href="mailto:support@arcamatrix.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Discord community
+          support@arcamatrix.com
         </a>{" "}
         for support.
       </Text>
